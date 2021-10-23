@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /home/fabricio/.yarn/bin/yarn.js init
+
+PATH: 
+  /home/fabricio/.yarn/bin:/home/fabricio/.config/yarn/global/node_modules/.bin:/home/fabricio/.yarn/bin:/home/fabricio/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin:/snap/bin:/home/fabricio/Android/Sdk/emulator:/home/fabricio/Android/Sdk/tools:/home/fabricio/Android/Sdk/tools/bin:/home/fabricio/Android/Sdk/platform-tools:/home/fabricio/Android/Sdk/emulator:/home/fabricio/Android/Sdk/tools:/home/fabricio/Android/Sdk/tools/bin:/home/fabricio/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/fabricio/.yarn/lib/cli.js:137145:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
