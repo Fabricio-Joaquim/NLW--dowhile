@@ -4,7 +4,6 @@ class ProfileUserService{
       const user = await prismaClient.user.findMany({where:{
           id:user_id
       }})
-
       return user
     }
 }
